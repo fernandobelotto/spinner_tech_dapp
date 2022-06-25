@@ -1,11 +1,15 @@
 <h1 align="center">Spinnr Tech Dapp</h1>
+
+https://user-images.githubusercontent.com/38187170/175774502-f3e38cca-7d27-4c68-b0a8-d15a55025e32.mp4
+
+
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
 > Dapp with hardhat, solidity, and react with typescript and chakra-ui
 
-## Importante Observation
+## Important Observation
 
   The smart contract is __yet not deployed in a testnet__ because I did not have yet enough eth to accomplish the deployment.
 
@@ -63,6 +67,8 @@
 <img src="screenshots/2.png" width="100%" align="left" />
 <img src="screenshots/6.png" width="100%" align="left" />
 <img src="screenshots/7.png" width="100%" align="left" />
-<img src="screenshots/3.png" width="100%" align="left" />
+<img src="screenshots/3.png" width="100%" al
+
+ign="left" />
 <img src="screenshots/4.png" width="100%" align="left" />
 <img src="screenshots/5.png" width="100%" align="left" />
