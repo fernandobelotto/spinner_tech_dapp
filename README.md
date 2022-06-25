@@ -5,7 +5,7 @@
 
 > Dapp with hardhat, solidity, and react with typescript and chakra-ui
 
-## Importante Observation
+## Important Observation
 
   The smart contract is __yet not deployed in a testnet__ because I did not have yet enough eth to accomplish the deployment.
 
