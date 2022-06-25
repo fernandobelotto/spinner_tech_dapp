@@ -2,6 +2,7 @@ import {
   Box,
   Button,
   ChakraProvider,
+  Checkbox,
   Container,
   Divider,
   Heading,
@@ -18,7 +19,7 @@ import { useSignerData } from "./hooks/use-signer";
 
 export function App() {
   const { address, ethAmount, error, network } = useSignerData();
-  const { name, newName, setNewName, writeName, loading } = useName();
+  const { name, newName, setNewName, writeName, loading, setUniqueName } = useName();
 
   return (
     <ChakraProvider theme={theme}>
@@ -46,6 +47,7 @@ export function App() {
                   Set Name
                 </Button>
               </HStack>
+              <Checkbox onChange={(e) => setUniqueName(e.target.checked)}>Ensure unique name (will add automatically prefix)</Checkbox>
               <Divider />
               <Text>Network: {network}</Text>
               <Text>Address: {address}</Text>
