@@ -25,7 +25,8 @@ https://user-images.githubusercontent.com/38187170/175774502-f3e38cca-7d27-4c68-
 
   The project contains two main folders:
   in the chain folder, you will find the smart contract written in solidity and also the script for deployment, and the test for that contract.
-  in the frontend folder, you will find a Vite react typescript project using chakra-ui and ethers.js. For the frontend, the logic that connects and read from the block is in the use-name and use-signer and the blockchain.ts files. First, if the user doesn't have the metamask installed in his browser, the UI will display an image showing the link to the chrome extension. If the user has that, once the user gets into the website, metamask will open and the user can connect with it. Then, if the user types a new name and clicks the button, the metamask will open. After the user confirms the transaction, the header in the frontend will update after a while with the new name typed.
+  in the frontend folder, you will find a Vite react typescript project using chakra-ui and ethers.js. For the frontend, the logic that connects and read from the block is in the use-name and use-signer and the blockchain.ts files. First, if the user doesn't have the metamask installed in his browser, the UI will display an image showing the link to the chrome extension. If the user has that, once the user gets into the website, metamask will open and the user can connect with it. Then, if the user types a new name and clicks the button, the metamask will open. After the user confirms the transaction, the header in the frontend will update after a while with the new name typed.\
+  Also, in order to check if the user is not setting a name that was already been used, i query for all the events and, depending if he checked the checkbox, i do the proper logic to set a name with a prefix.
 
 ## Running the project locally
 
@@ -67,8 +68,6 @@ https://user-images.githubusercontent.com/38187170/175774502-f3e38cca-7d27-4c68-
 <img src="screenshots/2.png" width="100%" align="left" />
 <img src="screenshots/6.png" width="100%" align="left" />
 <img src="screenshots/7.png" width="100%" align="left" />
-<img src="screenshots/3.png" width="100%" al
-
-ign="left" />
+<img src="screenshots/3.png" width="100%" align="left" />
 <img src="screenshots/4.png" width="100%" align="left" />
 <img src="screenshots/5.png" width="100%" align="left" />
