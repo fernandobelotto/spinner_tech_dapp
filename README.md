@@ -17,6 +17,12 @@
 
   This Web app is made using React with Typescript and lets the user set a name in a blockchain using an input field. To do it, the user needs the Metamask chrome extension installed in his browser. Once the user has the Metamask installed, he can expense some eth to change the name. Once the transaction is complete, all clients accessing the website will see the changes.
 
+## How it was made?
+
+  The project contains two main folders:
+  in the chain folder, you will find the smart contract written in solidity and also the script for deployment, and the test for that contract.
+  in the frontend folder, you will find a Vite react typescript project using chakra-ui and ethers.js. For the frontend, the logic that connects and read from the block is in the use-name and use-signer and the blockchain.ts files. First, if the user doesn't have the metamask installed in his browser, the UI will display an image showing the link to the chrome extension. If the user has that, once the user gets into the website, metamask will open and the user can connect with it. Then, if the user types a new name and clicks the button, the metamask will open. After the user confirms the transaction, the header in the frontend will update after a while with the new name typed.
+
 ## Running the project locally
 
 1. First, clone the app using
@@ -55,6 +61,8 @@
 
 <img src="screenshots/1.png" width="100%" align="left" />
 <img src="screenshots/2.png" width="100%" align="left" />
+<img src="screenshots/6.png" width="100%" align="left" />
+<img src="screenshots/7.png" width="100%" align="left" />
 <img src="screenshots/3.png" width="100%" align="left" />
 <img src="screenshots/4.png" width="100%" align="left" />
 <img src="screenshots/5.png" width="100%" align="left" />
