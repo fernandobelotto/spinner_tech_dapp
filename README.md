@@ -7,14 +7,11 @@
 
 ## Importante Observation
 
-  The smart contract is yet not deployed in a testnet because i did not have yet enouth eth to acomplishe the deploy.
+  The smart contract is __yet not deployed in a testnet__ because I did not have yet enough eth to accomplish the deployment.
 
 ## Live example
 
   https://spinner-tech-dapp.vercel.app/
-
-
-
 
 ## Description
 
@@ -34,7 +31,6 @@
       cd ./frontend && npm i
     ```
 
-
 1. run a local network in order to test
     ```
       npm run node
@@ -45,7 +41,7 @@
       npm run deploy:local
     ```
 
-1. Grab the contract address in the console and set in the .env.example file in frontend
+1. Grab the contract address in the console and set in the .env.example file in frontend, also, change the file name from .env.example to .env
 
 1. After that, run the frontend using
 
@@ -55,18 +51,10 @@
 
 1. Open http://localhost:3000 and check the app
 
-## Author
-
-👤 **Fernando Bosco**
-
-* Website: https://fernandobelotto.dev
-* Github: [@fernandobelotto](https://github.com/fernandobelotto)
-* LinkedIn: [@fernandobelotto](https://linkedin.com/in/fernandobelotto)
-
 ## Screenshots
 
-<img src="screenshots/1.png" width="400" align="left" />
-<img src="screenshots/2.png" width="400" align="left" />
-<img src="screenshots/3.png" width="400" align="left" />
-<img src="screenshots/4.png" width="400" align="left" />
-<img src="screenshots/5.png" width="400" align="left" />
+<img src="screenshots/1.png" width="100%" align="left" />
+<img src="screenshots/2.png" width="100%" align="left" />
+<img src="screenshots/3.png" width="100%" align="left" />
+<img src="screenshots/4.png" width="100%" align="left" />
+<img src="screenshots/5.png" width="100%" align="left" />
