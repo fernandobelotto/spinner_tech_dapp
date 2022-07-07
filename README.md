@@ -1,4 +1,4 @@
-<h1 align="center">Spinnr Tech Dapp</h1>
+<h1 align="center">Tech Dapp</h1>
 
 https://user-images.githubusercontent.com/38187170/175774502-f3e38cca-7d27-4c68-b0a8-d15a55025e32.mp4
 
