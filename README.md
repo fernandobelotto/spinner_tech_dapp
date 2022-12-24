@@ -1,4 +1,4 @@
-<h1 align="center">Tech Dapp</h1>
+<h1 align="center">Spinner Tech Dapp</h1>
 
 https://user-images.githubusercontent.com/38187170/175774502-f3e38cca-7d27-4c68-b0a8-d15a55025e32.mp4
 
@@ -7,7 +7,7 @@ https://user-images.githubusercontent.com/38187170/175774502-f3e38cca-7d27-4c68-
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> Dapp with hardhat, solidity, and react with typescript and chakra-ui
+> Dapp with hardhat, solidity, and react with typescript and chakra-ui made as part of a hiring process
 
 ## Important Observation
 
